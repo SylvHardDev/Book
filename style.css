@@ -33,6 +33,15 @@ ul li {
   font-size: 24px;
 }
 
+@media screen and (max-width: 480px) {
+  nav {
+    width: 80%;
+  }
+  ul li {
+    font-size: 15px;
+  }
+}
+
 .container {
   background-color: red;
   width: 80%;
@@ -62,4 +71,14 @@ ul li {
   border-radius: 80px;
   text-decoration: none;
   color: yellow;
+}
+.project a svg {
+  font-size: 10px;
+  margin-left: 10px;
+}
+#project-1 {
+  background-image: url(./image/spidy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
