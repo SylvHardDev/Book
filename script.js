@@ -8,18 +8,18 @@ const projects = document.querySelector(".projects");
 const totalScrollWidth = projects.scrollWidth - window.innerWidth;
 
 // Appliquer l'animation GSAP
-gsap.to(projects, {
-  x: -totalScrollWidth, // Translate horizontale négative
-  ease: "none", // Linear
-  scrollTrigger: {
-    trigger: ".container", // Élément déclencheur
-    start: "top top", // Début (viewport + conteneur)
-    end: `+=${totalScrollWidth}`, // Durée du défilement
-    scrub: 1, // Synchroniser avec le scroll
-    pin: true, // Fixer le conteneur
-    anticipatePin: 1, // Fluidité de l'épingle
-  },
-});
+// gsap.to(projects, {
+//   x: -totalScrollWidth, // Translate horizontale négative
+//   ease: "none", // Linear
+//   scrollTrigger: {
+//     trigger: ".container", // Élément déclencheur
+//     start: "top top", // Début (viewport + conteneur)
+//     end: `+=${totalScrollWidth}`, // Durée du défilement
+//     scrub: 1, // Synchroniser avec le scroll
+//     pin: true, // Fixer le conteneur
+//     anticipatePin: 1, // Fluidité de l'épingle
+//   },
+// });
 
 const buttons = gsap.utils.toArray(".ito");
 buttons.forEach((item) => {
