@@ -100,6 +100,13 @@ ul li {
   background-size: cover;
   background-position: center;
 }
+
+#project-3 {
+  background-image: url(./image/garage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* h2 {
   background: rgba(132, 105, 105, 0.454);
   backdrop-filter: blur(20px);
