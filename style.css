@@ -82,3 +82,10 @@ ul li {
   background-size: cover;
   background-position: center;
 }
+
+#project-2 {
+  background-image: url(./image/landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
