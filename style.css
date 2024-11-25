@@ -79,6 +79,7 @@ ul li {
   text-decoration: none;
   color: yellow;
   transition: all 0.3s ease;
+  overflow: hidden;
 }
 .project a:hover {
   padding: 15px 70px;
